@@ -1,0 +1,12 @@
+POST http://localhost:3001/api/persons HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "via Back-end",
+    "number" : "0000000000"
+}
+### delete
+DELETE  http://localhost:3001/api/persons/63c1b3dba518b6226ef031c8sdef HTTP/1.1
+
+### get all
+GET  http://localhost:3001/api/persons/ HTTP/1.1
